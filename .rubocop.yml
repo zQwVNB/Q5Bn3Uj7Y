@@ -1,0 +1,9 @@
+inherit_from: .rubocop_todo.yml
+
+inherit_gem:
+  theforeman-rubocop:
+    - lenient.yml
+    - minitest.yml
+
+AllCops:
+  NewCops: disable
